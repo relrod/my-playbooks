@@ -1,0 +1,8 @@
+- hosts: all
+  tasks:
+    - name: Show uptime for host
+      command: uptime
+      register: output
+
+    - debug:
+        var: output
