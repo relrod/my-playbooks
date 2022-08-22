@@ -1,2 +1,2 @@
-vps1 ansible_host=vps
+vps1 ansible_host=evil
 vps2 ansible_host=danobox
