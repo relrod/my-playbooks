@@ -1,0 +1,15 @@
+- name: Fact Gathering test
+  hosts: all
+  user: root
+  gather_facts: false
+  tasks:
+  - name: Re-run setup to activate custom facts
+    setup:
+      gather_subset:
+        - 'all'
+        - '!facter'
+        - '!ohai'
+      filter: ansible_local
+      gather_timeout: 240
+    tags:
+      - facts_ansible_local

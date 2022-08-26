@@ -1,2 +1,9 @@
-ps1 ansible_host=vps
-vps2 ansible_host=danobox
+el901 ansible_host=192.168.122.95
+el902 ansible_host=192.168.122.225
+el903 ansible_host=192.168.122.66
+el904 ansible_host=192.168.122.224
+el905 ansible_host=192.168.122.86
+el906 ansible_host=192.168.122.89
+el907 ansible_host=192.168.122.186
+el908 ansible_host=192.168.122.140
+el909 ansible_host=192.168.122.205
