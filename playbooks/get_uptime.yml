@@ -5,4 +5,4 @@
       register: output
 
     - debug:
-        var: output
+        msg: evil thing
