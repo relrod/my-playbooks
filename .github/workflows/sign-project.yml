@@ -16,6 +16,6 @@ jobs:
       - name: Sign the project
         uses: relrod/ansible-sign-action@main
         with:
-          commit-result: true
+          commit-result: false
           gpg-secret-key: ${{ secrets.GPG_SECRET_KEY }}
           gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
