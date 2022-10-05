@@ -1,2 +1,3 @@
 vps1 ansible_host=vps
 vps2 ansible_host=THIS-SHOULD-NOT-WORK.local
+pleasedontwork ansible_host=THIS-SHOULD-NOT-WORK.local
