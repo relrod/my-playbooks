@@ -1,0 +1,4 @@
+---
+- name: Configure firewall
+  debug:
+    msg: Configuring firewall!

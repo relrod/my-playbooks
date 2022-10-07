@@ -1,0 +1,17 @@
+- hosts: all
+  gather_facts: false
+  roles:
+    - firewall
+    - httpd
+  tasks:
+    - name: Deploy everything
+      debug:
+        msg: Deploying {{ inventory_hostname }}
+
+    - name: Wait for application to synchronize
+      pause:
+        seconds: 3
+
+    - name: Purge local cache
+      debug:
+        msg: Purging cache

@@ -1,4 +1,0 @@
-recursive-include playbooks *.yml
-include inventory
-recursive-exclude .git *
-recursive-exclude .github *

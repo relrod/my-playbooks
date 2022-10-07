@@ -1,0 +1,5 @@
+---
+- name: Deploy httpd configuration
+  assert:
+    that:
+      - true
