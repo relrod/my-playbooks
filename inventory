@@ -1,5 +1,5 @@
 [production]
-prod-fe-001.eng.example.com ansible_connection=local
+prod-be-001.eng.example.com ansible_connection=local
 prod-fe-002.eng.example.com ansible_connection=local
 prod-fe-003.eng.example.com ansible_connection=local
 prod-fe-004.eng.example.com ansible_connection=local
