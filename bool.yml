@@ -1,0 +1,8 @@
+- hosts: localhost
+  tasks:
+    - assert:
+        that:
+          - my_boolean is true
+
+    - debug:
+        var: my_boolean
