@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: 127.0.0.128
   tasks:
     - name: say hi
       debug:
